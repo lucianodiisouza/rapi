@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(120deg, #069, #eaeaea);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.lista {
+    width: 800px;
+    height: 90vh;
+    overflow-y: auto;
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
